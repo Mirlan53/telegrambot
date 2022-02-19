@@ -15,5 +15,5 @@ def get_weather(city):
 	degrees = dict_response.get('main').get('temp') 
 	return weather, degrees
 
-print(get_weather('Бишкек'))
+# print(get_weather('Бишкек'))
 
